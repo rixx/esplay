@@ -24,3 +24,16 @@ wifi, ws2812.
 Flash it using the tool of your choice, e.g. ``esptool``::
 
     esptool --port /dev/ttyUSB1 write_flash 0x0000 ./firmware/0x0000.bin
+
+
+History
+-------
+
+This project was inspired by the PlayStation Move game `Johann Sebastian
+Joust`_, which was ported to several_ open_ source_ projects.
+
+
+.. _Johann Sebastian Joust: http://jsjoust.com/
+.. _several: https://github.com/adangert/JoustMania
+.. _open: https://github.com/Juerd/opentilt
+.. _source: https://github.com/Ghoust-game/ghoust
