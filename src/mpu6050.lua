@@ -97,5 +97,5 @@ while true do   --read and print accelero, gyro and temperature value
     --ledbuffer:fill(math.abs(GyroY) / 3, math.abs(GyroY) / 3, math.abs(GyroZ) / 3)
     ledbuffer:fill(math.abs(AccelX) * 100, math.abs(AccelY) * 100, math.abs(AccelZ) * 100)
     ws2812.write(ledbuffer)
-    tmr.delay(100000 * 10)   -- 100ms * x timer delay
+    tmr.delay(100000 * 1)   -- 100ms * x timer delay
 end
